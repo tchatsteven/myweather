@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/tchatsteven/myweather/branch/main/graph/badge.svg?token=HSBDYULPSI)](https://codecov.io/gh/tchatsteven/myweather)
 # Weather
 
 Weather is an application to display the weather forcast for the following 5 days.
