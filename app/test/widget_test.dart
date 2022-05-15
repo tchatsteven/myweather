@@ -10,12 +10,11 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:app/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+  testWidgets('App Title check', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
 
     // Verify that our title exist.
     expect(find.text('Weather Forcast'), findsOneWidget);
-    
   });
 }
